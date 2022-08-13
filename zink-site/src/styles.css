@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+    transition: 1s;
+}
+
+nav a{
+    margin: 10px;
+}
+
+nav a:hover{
+    color: rgb(93, 93, 211);
+    cursor: pointer;
+}
+
+.nav-btn:hover{
+    background-color: rgb(93, 93, 211);
+    color: white;
+}
+
+#hero button{
+    background-color: rgb(93, 93, 211);
+    box-shadow: -3px 2px 2px grey;
+}
+
+#input{
+    background-color: white;
+}
+
+.dark-mood{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+#menu-btn{
+    background-color: #ffffff;
+    color: rgb(137, 26, 26);
+}
+
+#menu-btn{
+    margin-left: 1rem;
+    border-radius: 3px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+
+@media (min-width: 268px) and (max-width: 767px) {
+    #menu-btn{
+        margin-top: 9px;
+        width: 90px;
+        margin-left: -3px;
+    }
+}
+
+#hero button:hover{
+    background-color: rgb(213, 213, 213);
+    color: black;
+}
+
+#hero button:last-child{
+    background-color: rgb(213, 213, 213);
+    box-shadow: -3px 2px 2px grey;
+}
+
+#hero button:last-child:hover{
+    background-color: rgb(93, 93, 211);
+    color: white;
+}
+
+#hero{
+    background-color: rgb(235, 235, 235);
+}
+
+#pricing{
+    background-color: rgb(235, 235, 235);
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+/* testimonials */
+#t-card{
+    background-color: rgb(93, 93, 211);
+    color: white;
+}
+
+/* testimonials */
+
+#testimonials span{
+    color: white;
+}
+
+#t-card{
+    background-color: rgb(93, 93, 211);
+    color: white;
+    box-shadow: -3px 5px 5px grey;
+}
+/* END OF TESTIMONIALS */
+
+#card1{
+    background-color: rgb(93, 93, 211);
+    border-radius: 5px;
+    /* box-shadow: -3px 2px 2px grey; */
+}
+
+#card1 #card #card2, a{
+    cursor: pointer;
+    /* font-size: 20px; */
+}
+
+#card1 #card #card2, a:hover{
+    color: rgb(170, 170, 170);
+}
+
+footer{
+    border-top: 1px solid rgb(204, 204, 204);
+}
+
+footer a{
+    cursor: pointer;
+}
+
+footer a:hover{
+    color: rgb(93, 93, 211);
+}
+
+footer h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#last-footer{
+    background-color: rgb(208, 208, 208);
+    color: white;
+}
+
+
